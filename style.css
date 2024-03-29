@@ -1,0 +1,67 @@
+body{
+  background-image:url("img/d1.jpeg");
+  font-family: Georgia;
+  
+}
+
+h3{
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+  color:rgb(13, 185, 208);
+  
+  
+}
+h5{
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+.container{
+  
+  background-color:rgba(15, 14, 14,0.9);
+  border-radius:1vw;
+  border:0.1vw solid rgb();
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2vw;
+  color:aliceblue;
+  
+  
+}
+
+form{
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+  margin-left: 1vw;
+  margin-right:1vw;
+ 
+}
+fieldset{
+  border-radius:1vw;
+  margin-top: 2vw;
+}
+
+label,select,input,textarea, .sub{
+  margin-left: 4vw;
+  display: block;
+  width:80%;
+  border:none;
+  border-radius:10%;
+  margin-top:2vw;
+}
+
+input.ch{
+  margin-left:8vw;
+  width:10%;
+  display:inline;
+}
+
+.sub{
+   background-color: rgb(8, 126, 190);
+   height:3vw;
+  
+
+}

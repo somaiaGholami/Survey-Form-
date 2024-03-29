@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>City Hospital Survey Form </h3>
+       
+      <form action="#">
+         <fieldset>
+          <legend>Personal Info</legend>
+          <label for="n">Name</label>
+          <input type="text" name="n">
+          <label for="ln">Last name</label>
+          <input type="text" name="ln">
+
+          <label for="email">Email</label>
+          <input type="email" name="email">
+ 
+          <label for="gender">Gender</label>
+          <select name="gender" >
+
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="not">don't want to tell</option>
+          </select>
+         </fieldset>
+
+         <fieldset>
+          <legend>Services Time</legend>
+          <h5>Please select Time of Services you need.</h5>
+          
+            
+            <input type="radio" name="Services" value="part" class="ch"> Part time <br>
+            <input type="radio" name="Services" value="full" class="ch"> Full time
+          
+         </fieldset>
+
+         <fieldset>
+          <legend> Services Type</legend>
+          <h5>Please select Type of Services you need.</h5>
+
+          <input type="checkbox" class="ch" value="S1"> Services name <br>
+          <input type="checkbox" class="ch" value="S2"> Services name <br>
+          <input type="checkbox" class="ch" value="S3"> Services name <br>
+          <input type="checkbox" class="ch" value="S4"> Services name <br>
+          <input type="checkbox" class="ch" value="S5"> Services name <br>
+          <input type="checkbox" class="ch" value="S6"> Services name<br>
+          
+         </fieldset>
+         <h5>Write Your Sugiestion</h5>
+          <textarea name="massage" id="" cols="30" rows="10"></textarea>
+
+          <input type="submit" class="sub">
+      </form>
+    </div>
+  </body>
+</html>
